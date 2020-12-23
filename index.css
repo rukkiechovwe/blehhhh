@@ -30,10 +30,16 @@ h1{
 	font-size: 32px;
 	line-height: 40px;
 }
+h2{
+	font-size: 22px;
+}
 p{
 	font-weight: 500;
     color:#5f6165;
     margin: 20px 10px;
+}
+img{
+	width: 100%
 }
 .row{
 	display: flex;
@@ -93,7 +99,7 @@ p{
 .header-text{
 	background-color: #ffffff;
     color: #3d5af1;
-    padding: 10px 25px;
+    padding: 5px 20px 8px;
     border-radius: 40px;
 }
 /*--------main styling--------*/
@@ -121,8 +127,8 @@ p{
  	border-radius: 10px;
  	border:2px dashed #3D5AF1;
     max-width: 350px;
-    width: 350px;
- 	height: 180px;
+    width: 340px;
+ 	height: 200px;
 }
 .file_upload-wrapper{
     align-items: center;
@@ -144,6 +150,9 @@ p{
     cursor: pointer;
     z-index: 5;
 }
+.output{
+	width: 320px;
+}
 /*-------footer-------*/
 .footer-note{
 	position: absolute;
@@ -158,6 +167,7 @@ p{
 @media only screen and (max-width: 768px){
 	.main-header{flex-direction: column;}
 	.main-header-text{max-width: 100%;text-align: center;}
+	.output-div{align-items: center;}
 	.custom-shape-divider-bottom-1608609097{top: -200px;left: -120px;width: 140%!important;}
 	.custom-shape-divider-bottom-1608609097 svg{width: calc(191% + 1.3px);height: 490px;}
 }
